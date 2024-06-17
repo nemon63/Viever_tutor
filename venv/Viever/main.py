@@ -1,0 +1,11 @@
+import sys
+from PyQt5.QtWidgets import QApplication
+from Viever.main_window import MainWindow
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    main_window = MainWindow()
+    main_window.show()
+    sys.exit(app.exec_())
+
+# 16_06_20224
